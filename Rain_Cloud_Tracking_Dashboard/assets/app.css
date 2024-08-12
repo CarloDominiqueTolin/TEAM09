@@ -1,0 +1,267 @@
+* {
+    margin:0px;
+    color:#e7e7e7;
+}
+
+.app {
+    height:100vh;
+    width:100vw;
+    background-color: #111010;
+    display:flex;
+}
+
+.main-panel {
+    height: 100%;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-panel {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 5%;
+    gap:16px;
+    padding-top:24px;
+    background-color: #292828;
+}
+
+.main-heading {
+    height:20%;
+    display:flex;
+    align-items: flex-end;
+    margin-left:48px;
+    margin-right:48px;
+    justify-content: space-between;
+}
+
+.nav-item {
+    width:100%;
+}
+
+.main-heading h1{
+    font-size:24px;
+}
+
+.main-heading P{
+    font-size:36px;
+}
+
+.data-container {
+    height:77%;
+    display:flex;
+}
+
+.main-footer {
+    height:3%;
+    display:flex;
+}
+
+.map-display {
+    height:100%;
+    width:60%;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.device-display {
+    height:100%;
+    width:40%;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content:flex-start;
+}
+
+.device-card {
+    background-color: #292828;
+    padding: 20px;
+    font-size:16px;
+}
+
+.device-card .top-panel{
+    width:100%;
+}
+
+.device-card .bottom-panel{
+    width:100%;
+}
+
+.device-title {
+    font-size:24px;
+}
+
+.device-card h2 {
+    font-size: 16px;
+}
+
+.device-info {
+    font-size: 12px;
+    margin-bottom: 8px;
+    display:flex;
+    font-size:16px;
+    height:20px;
+}
+
+.device-info p {
+    margin:0%;
+}
+
+.device-info i{
+    margin-right: 10px;
+}
+
+.weather-data-container {
+    display:flex;
+    gap:10px;
+}
+
+.parameter-card {
+    background-color: #414040;
+    border-radius: 10px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:100px;
+    flex-grow:1;
+}
+
+.parameter-card p {
+    text-align: center;
+    font-size: 16px;
+    margin:0px;
+}
+
+.map-graph {
+    height: 90%;
+    justify-self: flex-start;
+}
+
+.red {
+    color:#f74041;
+}
+
+.green {
+    color:#16cb48;
+}
+
+.blue {
+    color: #1690ff;
+}
+
+.dark {
+    background-color:#292828;
+    color:#e7e7e7;
+}
+
+.modal-style {
+    width:70vw;
+}
+
+.cameras-panel {
+    display:flex;
+    justify-content: space-between;
+}
+
+.row-container {
+    display:flex;
+    flex-direction: column;
+    height:70%;
+}
+
+.row {
+    display:flex;
+    margin-bottom: 5px;
+}
+
+.test-background {
+    background-color:red;
+}
+
+.column-1 {
+    height:100%;
+}
+
+.cam-feed-panel {
+    width:49%
+}
+
+.cam-feed-panel H1 {
+    font-size: 24px;
+}
+
+.cam-feed-display {
+    width:100%;
+}
+
+.modal-title {
+    font-size:32px;
+}
+
+.db-panel {
+    display:flex;
+    height:60vh;
+    width:100%;
+    padding:0px;
+}
+
+.db-sidebar {
+    width:20%;
+    background-color:#414040;
+}
+
+.db-main-panel {
+    width: 80%;
+    display:flex;
+    flex-direction: column;
+    padding:20px;
+}
+
+.db-device {
+    flex-grow: 1;
+}
+
+.vertical-tabs {
+    width:100%;
+}
+
+.db-select-title {
+    font-size:32px;
+    margin-left:20px;
+}
+
+.item-nav {
+    width:100;
+    background-color:red;
+}
+
+.time-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.time-info P {
+    margin:0px;
+}
+
+#cam-modal {
+    width:1340px;
+    max-width:none;
+}
+
+#cam-modal .modal-content {
+    width:100%;
+}
+
+.dash-dropdown *, .Select-value-label {
+    background-color: #292828; /* Set the background color of the dropdown options */
+    color: #e7e7e7; /* Set the text color of the dropdown options */
+}
+
