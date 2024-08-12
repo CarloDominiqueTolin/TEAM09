@@ -1,0 +1,9 @@
+authtoken: 3qTCqfcxiv9BhKJHdcarR_cZ4fqYVkYDUyfHA1zogD
+
+tunnels:
+  raspi_app:
+    proto: http
+    addr: 8000
+    inspect: false
+
+version: 1
